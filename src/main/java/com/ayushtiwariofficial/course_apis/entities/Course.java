@@ -6,13 +6,13 @@ public class Course {
     private String name;
     private String description;
 
-    Course(long id, String name, String description){
+    public Course(long id, String name, String description){
         super();
         this.id = id;
         this.name = name;
         this.description = description;
     }
-    Course(){
+    public Course(){
         super();
     }
     
