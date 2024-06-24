@@ -7,4 +7,5 @@ import com.ayushtiwariofficial.course_apis.entities.Course;
 public interface CourseService {
 
     public List<Course> getCourses();
+    public Course getCourse(long CourseId);
 }
